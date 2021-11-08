@@ -46,3 +46,7 @@ jobs:
         with:
           command: test
 ```
+
+### Screenshot
+
+![screenshot](/images/screenshot.png)
