@@ -1,0 +1,8 @@
+name: Rust Problem Matchers
+description: Setup Problem Matchers for Rust.
+runs:
+  using: node12
+  main: index.js
+branding:
+  color: orange
+  icon: list
