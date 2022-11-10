@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Use node16 instead of node12
+
 ## 1.0.1 - 2022-04-16
 
 ### Changed

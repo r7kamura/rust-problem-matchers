@@ -1,7 +1,7 @@
 name: Rust Problem Matchers
 description: Setup Problem Matchers for Rust.
 runs:
-  using: node12
+  using: node16
   main: index.js
 branding:
   color: orange
