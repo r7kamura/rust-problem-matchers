@@ -1,8 +1,10 @@
 name: Rust Problem Matchers
 description: Setup Problem Matchers for Rust.
 runs:
-  using: node16
-  main: index.js
+  using: "composite"
+  steps:
+    - run: echo "::add-matcher::${{ github.action_path }}/.github/matchers.json"
+      shell: bash
 branding:
   color: orange
   icon: list
