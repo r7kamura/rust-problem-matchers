@@ -4,7 +4,13 @@ GitHub Action to setup [Problem Matchers](https://github.com/actions/toolkit/blo
 
 ## Usage
 
-Add this action as a step before running Rust toolchain:
+Add this action before running Rust toolchain:
+
+```yaml
+- uses: r7kamura/rust-problem-matchers@v1
+```
+
+### Full example
 
 ```yaml
 name: test
