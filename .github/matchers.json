@@ -4,13 +4,13 @@
             "owner": "rust-compiler",
             "pattern": [
                 {
-                    "regexp": "^(warning|warn|error)(\\[(\\S*)\\])?: (.*)$",
+                    "regexp": "^(?:\\x1B\\[[0-9;]*[a-zA-Z])*(warning|warn|error)(\\[(\\S*)\\])?(?:\\x1B\\[[0-9;]*[a-zA-Z])*: (.*?)(?:\\x1B\\[[0-9;]*[a-zA-Z])*$",
                     "severity": 1,
                     "message": 4,
                     "code": 3
                 },
                 {
-                    "regexp": "^\\s+-->\\s(\\S+):(\\d+):(\\d+)$",
+                    "regexp": "^(?:\\x1B\\[[0-9;]*[a-zA-Z])*\\s+(?:\\x1B\\[[0-9;]*[a-zA-Z])*-->\\s(?:\\x1B\\[[0-9;]*[a-zA-Z])*(\\S+):(\\d+):(\\d+)(?:\\x1B\\[[0-9;]*[a-zA-Z])*$",
                     "file": 1,
                     "line": 2,
                     "column": 3
