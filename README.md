@@ -47,10 +47,6 @@ jobs:
           command: test
 ```
 
-### Note
-
-This action does not currently support ANSI colored output, so do not set `term.color` or `CARGO_TERM_COLOR` to `always`.
-
 ### Screenshot
 
 ![screenshot](/images/screenshot.png)
