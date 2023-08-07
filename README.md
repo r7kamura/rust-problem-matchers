@@ -2,6 +2,10 @@
 
 GitHub Action to setup [Problem Matchers](https://github.com/actions/toolkit/blob/1cc56db0ff126f4d65aeb83798852e02a2c180c3/docs/problem-matchers.md) for Rust.
 
+Setting this action will automatically annotate errors from Rust toolchain on GitHub Actions.
+
+![screenshot](/images/screenshot.png)
+
 ## Usage
 
 Add this action before running Rust toolchain:
@@ -52,7 +56,3 @@ jobs:
         with:
           command: test
 ```
-
-### Screenshot
-
-![screenshot](/images/screenshot.png)
